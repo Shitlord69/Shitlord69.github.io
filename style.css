@@ -336,7 +336,8 @@ footer {
 #serviceslide2{
     background: url('/image/service/serviceslide2.png' );
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 120% 100%;
+    height: 1200px;
 }
 #serviceslide1wrapper{
     margin-left: 35em;
