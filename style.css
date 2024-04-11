@@ -1,0 +1,471 @@
+/* UNIVERSAL SELECTOR */
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /*cursor: url('image/cursor/cursor.png'),pointer;*/
+}
+
+
+
+
+
+
+/* CONTENT */
+
+header {
+    height: 100px;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav{
+    margin:0;
+    width:100%;
+    z-index: 1000;
+    
+}
+
+nav img {
+    padding: 30px;
+    width: 140px;
+    height: auto;
+    float: left;
+}
+
+nav a:link, a:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 42, 179);
+    text-decoration: none;
+    transition: .2s;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;   
+    background-size: 100%;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+
+
+/* CLASS AND ID */
+
+
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbutton{
+    background-color: rgba(255, 255, 255, 0.975);
+}
+
+#navbutton a {
+    text-align: center;
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 100%;
+}
+
+.footercontainer {
+    padding: 30px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.aboutus ul{
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+}
+
+.aboutus ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: small;
+}
+
+
+
+/* CLASS AND ID IMPORTED FROM JOSHUA'S EXPERIMENTAL SLIDE WRAPPER*/
+
+.slide{
+    width: 100%;
+    height: 950px;
+    background-size: 100% 100%;
+}
+.slide h2{
+    font-size: 200%;
+    color: #000000;
+    margin: 0;
+}
+
+.slide a{
+    border: 1px solid #8a2be2;
+    padding: 30px 100px;
+    text-decoration: none;
+    transition: .2s;
+}
+.slide a:hover, a:active{
+    border: 1px solid white;
+    color: white;
+    background-color: blueviolet;
+    transition: .2s;
+}
+.slide u{
+    text-decoration-color: blueviolet;
+}
+
+
+
+
+#homeslide1{
+    background-image: url('/image/index/homeslide1.png'); 
+}
+#homeslide1wrapper{
+    /* border: solid black 1px; */
+    position: relative;
+    top: 200px;
+    left: 450px;
+    width: 600px;
+    overflow: visible;
+    text-align: center;
+    
+}
+
+#homeslide2{
+    background-image: url('/image/index/homeslide2.jpeg'); 
+}
+#homeslide2wrapper{
+    /* border: solid black 1px; */
+    position: relative;
+    top: 200px;
+    left: 50px;
+    right: 800px;
+    width: 600px;
+    overflow: visible;
+}
+
+#homeslide3{
+    background-image: url('/image/index/homeslide3.jpeg'); 
+}
+#homeslide3wrapper{
+    /* border: solid black 1px; */
+    position: relative;
+    top: 200px;
+    left: 750px;
+    width: 500px;
+    overflow: visible;
+}
+
+#homeslide4{
+    background: #EEEEEE; 
+}
+#homeslide4wrapper{
+    /* border: solid black 1px; */
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    overflow: visible;
+}
+#homeslide4innerwrapper{
+    margin: 13px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+#homeslide4innerwrapper img{
+    width: 400px;
+    height: 215px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#homeslide4innerwrapper h3{
+    margin: 20px;
+    text-align: center;
+}
+#homeslide4innerwrapper p{
+    margin: 20px;
+    padding: 0;
+}
+#homeslide4innerwrapper a{
+    margin: 20px;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+
+
+
+#browsecarslide{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.browsecarwrapper{
+    margin: 30px;
+    width: 400px;
+    height: 440px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+    overflow: visible;
+    vertical-align: top;
+}
+.browsecarwrapper img{
+    width: 400px;
+    height: 250px;
+}
+.browsecartextwrapper{
+    padding: 20px; 
+}
+.browsecarwrapper h2{
+    color: blueviolet;
+}
+.browsecarwrapper h3{
+    color: rgb(160, 159, 188);
+    text-align: center;
+}
+.browsecarwrapper p{
+    color: rgb(0, 0, 0);
+    padding: 0;
+}
+.browsecarwrapper h5{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #8a2be2;
+}
+.browsecarwrapper a:visited, a:link{
+    text-decoration: none;
+}
+
+
+
+
+#sellslide1{
+    background: url('/image/sell/sellslide1.png' );
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    height: 1200px;
+}
+#sellslide1wrapper{
+    margin-left: 35em;
+    margin-right: 4em;
+    margin-top: 5em;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+#sellslide1wrappertitle{
+    margin:0;
+    padding:15px;
+    text-align: center;
+    background-color: #8a2be2;
+    color:white;
+}
+#sellslide2{
+    background-image: url('/image/sell/sellslide2.png');
+}
+
+
+
+#serviceslide1innerwrapper{
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgb(52, 52, 52);
+    overflow: visible;
+    vertical-align: top;
+}
+#serviceslide1innerwrapper h2{
+    padding: 30px;
+    text-align: center;
+}
+#serviceslide1innerwrapper h3{
+    text-align: center;
+    color: #284c9a;
+}
+#serviceslide1innerwrapper p{
+    text-align: center;
+    color:#929292;
+}
+#serviceslide1innerwrapper li{
+    list-style-type: square;
+    padding-left: 50px;
+    margin: 1px;
+}
+#serviceslide2{
+    background: url('/image/service/serviceslide2.png' );
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    height: 1200px;
+}
+#serviceslide1wrapper{
+    margin-left: 35em;
+    margin-right: 4em;
+    margin-top: 5em;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+#serviceslide1wrappertitle{
+    margin:0;
+    padding:15px;
+    text-align: center;
+    background-color: #8a2be2;
+    color:white;
+}
+
+
+
+
+#contactslide1wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+    width: 75%;
+    background-color: rgb(239, 239, 239);
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+
+
+
+
+#locationslide1{
+    background-image: url('/image/location/locationslide1.png');
+}
+#locationslide2{
+    background-image: url('/image/location/locationslide2.png')
+}
+#locationslide2 p{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+#locationslide3innerwrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+#locationslide3innerwrapper img{
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    float: left; 
+}
+#locationslide3innerwrapper h3,p{
+    padding: 20px;
+}
+#locationslide3innerwrapper h3{
+    color:#8a2be2;
+}
+
+
+#careerslide1{
+    background-image: url('/image/career/careerslide1.png');
+}
+#careerslide2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+    width: 75%;
+    background-color: rgb(239, 239, 239);
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+}
+
+
+
+#faqwrapper{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 20px rgb(203, 171, 232);
+    padding: 30px;
+}
+#faqwrapper h4,p{
+    padding: 5px;
+}
+#faqwrapper h4{
+    padding-top: 50px;
+}
+#faqwrapper p{
+    padding: 5px;
+    color:#929292;
+}
+
+
+
+/*FORM DECORATION*/
+
+input[type=text], select, input[type=tel], input[type=email] {
+    
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+input[type=submit] {
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: rgb(98, 32, 161);
+  }
