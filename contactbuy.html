@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Enter Detail</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleanimation.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <nav>
+                    <a href="index.html"><img src="/image/DRIVIT_logo.png" alt="Drivit"></a>
+                    <div id="navbutton">
+                        <a href="buy.html">Buy</a>
+                        <a href="sell.html">Sell</a>
+                        <a href="service.html">Service</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="location.html">Location</a>
+                        <a href="aboutus.html">About Us</a>
+                    </div>
+                </nav>
+            </header>
+
+            <nav>
+            </nav>
+
+
+            <!-- MAIN CONTENTS -->
+
+            <main>
+                <br><br><br><br><br><br><br><br>
+                <div class="cssanimation sequence fadeInBottom">
+                    <h1>You're one step closer to your dream car! </h1>
+                </div>
+            
+                 <div id="contactbuyslide1" class="slide">
+                    <div id="contactslide1wrapper">
+                        <h3 style="text-align:center;">Please fill in your personal details so that our agent can contact you via Whatsapp.</h3>
+                        <br><br>
+                        <form action="buy.html" style="margin-left: 100px;margin-right: 100px;">
+                            <label for="fullname">Full Name:</label><br>
+                            <select name="gender" id="gender">
+                                <option value="Mr.">Mr.</option>
+                                <option value="Ms.">Ms.</option>
+                            </select>
+                            <input type="text" id="fullname" name="fullname" size="50" placeholder="Your Full Name" required><br><br>
+                            <label for="fullname">E-mail Address:</label><br>
+                            <input type="email" id="email" name="email" size="50" placeholder="xxxxxx@xxx.com" required><br><br>
+                            <label for="phonenum">Phone Number</label><br>
+                            <select name="phonenum" id="phonenum">
+                                <option value="+60">MYS +60</option>
+                                <option value="+60">SGP +65</option>
+                            </select>
+                            <input type="tel" id="telnum" name="telnum" size="50" placeholder="12-34567890" pattern="[0-9]{2}-[0-9]{8}" required><br><br>
+                            <input type="checkbox" id="agreement" name="agreement" value="True" required>
+                            <label for="agreement"><small>I agree to the terms and conditions and privacy policy provided.</small></label><br><br>
+                            <input type="submit" value=" Submit ">
+                        </form>
+                    </div>
+                </div>
+               
+            </main>
+
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div class="footercontainer">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/profile.php?id=61557592662859" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.instagram.com/drivit_official/" class="fa-brands fa-instagram"></a>
+                        <a href="" class="fa-brands fa-whatsapp"></a>
+                    </div>
+                    <div class="aboutus">
+                        <ul>
+                            <li><a href="buy.html">Buy</a></li>
+                            <li><a href="sell.html">Sell</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright &copy; 2024 DRIVIT</p>
+                    </div>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+
