@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Service & Maintenance</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleanimation.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <nav>
+                    <a href="index.html"><img src="/image/DRIVIT_logo.png" alt="Drivit"></a>
+                    <div id="navbutton">
+                        <a href="buy.html">Buy</a>
+                        <a href="sell.html">Sell</a>
+                        <a href="service.html">Service</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="location.html">Location</a>
+                        <a href="aboutus.html">About Us</a>
+                    </div>
+                </nav>
+            </header>
+
+            <nav>
+            </nav>
+
+
+            <!-- MAIN CONTENTS -->
+
+            <main>
+                <br><br><br><br><br><br><br><br>
+                <div class="cssanimation sequence fadeInBottom">
+                    <h1>We offer top notch service <br>that even you car will love it.</h1>
+                </div>
+
+                <div id="serviceslide1">
+                <br><br><h2 style="text-align:center;">Periodic Maintenance Packages</h2>
+                    <div class="serviceslide1innerwrapper">
+                        <h2 style="background-color: silver;">BASIC</h2><br>
+                        <h3><small>RM</small> 88 ></h3>
+                        <p>All the essentials your car needs to keep it running in good condition.</p>
+                        <ul>
+                            <li>- Semi-synthetic engine oil</li>
+                            <li>- Windshield washer replacement</li>
+                            <li>- Oil filter replacement</li>
+                            <li>- Oil pan washer replacement</li>
+                        </ul>
+                    </div>
+
+                    <div class="serviceslide1innerwrapper">
+                        <h2 style="background-color: blueviolet;">PREMIUM</h2><br>
+                        <h3><small>RM</small> 128 ></h3>
+                         <p>Recommended for peace of mind. Includes all essential services plus air filter and brake fluid replacements.</p>
+                        <ul>
+                            <li>- Semi-synthetic engine oil</li>
+                            <li>- Windshield washer replacement</li>
+                            <li>- Oil filter replacement</li>
+                            <li>- Oil pan washer replacement</li>
+                            <li>- Air filter replacement</li>
+                            <li>- Brake fluid replacement</li>
+                        </ul>
+                    </div>
+
+                    <div class="serviceslide1innerwrapper">
+                        <h2 style="background-color: gold;">ULTRA</h2><br>
+                        <h3><small>RM</small> 288 ></h3>
+                        <p>Our most comprehensive service that takes care of it all to maintain peak performance.</p>
+                        <ul>
+                            <li>- Semi-synthetic engine oil</li>
+                            <li>- Windshield washer replacement</li>
+                            <li>- Oil filter replacement</li>
+                            <li>- Oil pan washer replacement</li>
+                            <li>- Coolant replacement</li>
+                            <li>- Auto/manual transmission oil replacement</li>
+                        </ul>
+                    </div>
+                </div><br><br>
+
+
+
+
+
+
+
+                <div id="serviceslide2">
+                    <div id="serviceslide2wrapper">
+                    <div id="serviceslide2wrappertitle">
+                    <h3>Quality Parts   |   No hidden fees   |   Quick repairs</h3>
+                    </div>
+                        <h3 style="text-align:center;padding: 20px;">Tell us what you need:</h3>
+                        <form style="margin-left: 100px;margin-right: 100px;">
+                            <label for="fullname">Full Name:</label><br>
+                            <select name="gender" id="gender">
+                                <option value="Mr.">Mr.</option>
+                                <option value="Ms.">Ms.</option>
+                            </select>
+                            <input type="text" id="fullname" name="fullname" size="50" placeholder="Your Full Name" required><br><br>
+                            <label for="phonenum">Phone Number ( Whatsapp )</label><br>
+                            <select name="phonenum" id="phonenum">
+                                <option value="+60">MYS +60</option>
+                                <option value="+60">SGP +65</option>
+                            </select>
+                            <input type="tel" id="telnum" name="telnum" size="30" placeholder="12-34567890" pattern="[0-9]{2}-[0-9]{8}" required><br><br>
+                            <label for="insp">Inspections:</label><br>
+                            <input type="checkbox" id="insp" name="agreement" value="True" >
+                            <label for="insp"><small>Periodic Maintenance</small></label><br>
+                            <input type="checkbox" id="agreement2" name="agreement" value="True" >
+                            <label for="insp"><small>A/C Repair and Maintenance</small></label><br>
+                            <input type="checkbox" id="agreement3" name="agreement" value="True" >
+                            <label for="insp"><small>Tyre Services</small></label><br>
+                            <input type="checkbox" id="agreement4" name="agreement" value="True" >
+                            <label for="insp"><small>Body Wash / Customization</small></label><br>
+                            <input type="checkbox" id="agreement5" name="agreement" value="True" >
+                            <label for="insp"><small>Spare Part Replacement</small></label><br>
+                            <input type="checkbox" id="agreement6" name="agreement" value="True" >
+                            <label for="insp"><small>Other</small></label><br><br>
+                            <label for="carbrand">Car Brand:</label><br>
+                            <input type="text" id="carbrand" name="carbrand" size="50" placeholder="eg. Proton" required><br><br>
+                            <label for="carmodel">Car Model:</label><br>
+                            <input type="text" id="carmodel" name="carmodel" size="50" placeholder="eg. Saga" required><br><br>
+                            <label for="productionyear">Production Year:</label><br>
+                            <select name="productionyear" id="productionyear">
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                            </select><br><br>
+                            <input type="checkbox" id="agreement7" name="agreement" value="True" required>
+                            <label><small>I agree to the terms and conditions and privacy policy provided.</small></label><br><br>
+                            <input type="submit" value=" Submit "><br><br>
+                        </form>
+                </div>
+                </div>
+                
+               
+            </main>
+
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div class="footercontainer">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/profile.php?id=61557592662859" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.instagram.com/drivit_official/" class="fa-brands fa-instagram"></a>
+                        <a href="" class="fa-brands fa-whatsapp"></a>
+                    </div>
+                    <div class="aboutus">
+                        <ul>
+                            <li><a href="buy.html">Buy</a></li>
+                            <li><a href="sell.html">Sell</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright &copy; 2024 DRIVIT</p>
+                    </div>
+                </div>
+            </footer>
+        </div>  
+    </body>
+</html>
+
